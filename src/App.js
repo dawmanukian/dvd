@@ -9,6 +9,9 @@ import DvdBox from "./page/dvd-box/DvdBox";
 import Quest from "./page/quest/Quest";
 
 function App() {
+
+
+  
   return (
     <div className="data">
       <Router>

@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: 91px 91px;
   grid-template-rows: 104px 104px 104px;
-  gap: 26px;
+  gap: 40px;
   justify-content: center;
   align-items: center;
 }
@@ -25,4 +25,18 @@
   font-size: 18px;
   color: #fff;
   border: none;
+}
+.dvd_box {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.dvd_box .ddvd {
+  position: absolute;
+  left: 0px;
+  transition: all ease .5s;
+  z-index: -1;
+}
+.pnn button:disabled {
+  display: none;
 }
