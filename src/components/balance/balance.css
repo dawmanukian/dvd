@@ -1,0 +1,12 @@
+.balance {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 41px;
+}
+.balance p {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42.96px;
+  color: #fff;
+}

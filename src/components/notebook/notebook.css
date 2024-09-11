@@ -1,0 +1,14 @@
+.notebook {
+  width: 100%;
+  left: 0;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.note {
+  position: absolute;
+  bottom: 255px;
+}

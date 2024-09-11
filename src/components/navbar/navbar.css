@@ -1,0 +1,30 @@
+.navbar {
+  background: #0a0a0a;
+  width: 100%;
+  min-height: 80px;
+  max-height: 80px;
+  position: sticky;
+  left: 0px;
+  bottom: 0px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  align-items: center;
+  padding: 10px;
+}
+.navbar a {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  height: 100%;
+  font-weight: 500;
+  line-height: 14.32px;
+  font-size: 12px;
+  color: #ffffff33;
+  flex-direction: column;
+}
+.navbar .gr {
+    position: absolute;
+    top: -40px;
+}

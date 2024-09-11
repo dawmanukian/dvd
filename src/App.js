@@ -1,23 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import NavBar from "./components/navbar/NavBar";
+import Home from "./page/home/Home";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Premium from "./page/premium/Premium";
+import Upgrade from "./page/upgrade/Upgrade";
+import Top from "./page/top/Top";
+import Dvd from "./page/dvd/Dvd";
+import DvdBox from "./page/dvd-box/DvdBox";
 
 function App() {
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="data">
+      <Router>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/premium" element={<Premium />} />
+          <Route path="/upgrade/:type" element={<Upgrade />} />
+          <Route path="/top" element={<Top />} />
+          <Route path="/scream" element={<Dvd />} />
+          <Route path="/dvdbox" element={<DvdBox />} />
+        </Routes>
+        <NavBar />
+      </Router>
     </div>
   );
 }

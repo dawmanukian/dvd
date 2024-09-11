@@ -1,0 +1,28 @@
+.game_ {
+  display: grid;
+  grid-template-columns: 91px 91px;
+  grid-template-rows: 104px 104px 104px;
+  gap: 26px;
+  justify-content: center;
+  align-items: center;
+}
+.pnn {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.pnn button {
+  background: #ffe100;
+  width: 78px;
+  height: 41px;
+  border-radius: 10px;
+  font-weight: 500;
+  line-height: 21.48px;
+  font-size: 18px;
+  color: #fff;
+  border: none;
+}

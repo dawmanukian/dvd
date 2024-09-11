@@ -1,0 +1,75 @@
+@font-face {
+  font-family: "Ink";
+  src: url("../../fonts/Inky-Thin-Pixels_0.ttf");
+  font-style: normal;
+}
+.top {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.top > p {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  font-weight: 700;
+  line-height: 31.03px;
+  font-size: 26px;
+  color: #fff;
+}
+.top_users {
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 100%;
+  gap: 5px;
+}
+.top_users > div {
+  height: 80px;
+  background: #0a0a0a;
+  box-shadow: 10px 0px 0px 0px #0f0f0f inset;
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.top_users > div:nth-child(1) {
+  box-shadow: 10px 10px 0px 0px #0f0f0f inset;
+}
+.top_users > div:nth-child(3) {
+  box-shadow: 10px -10px 0px 0px #0f0f0f inset;
+}
+.us_name {
+  font-weight: 700;
+  font-size: 18px;
+  color: #fff;
+  line-height: 21.48px;
+}
+.us_balance {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14.32px;
+  color: #ffffff99;
+}
+.top_users > div {
+  overflow: hidden;
+}
+.top_users > div > div {
+  display: flex;
+  gap: 10px;
+  padding-left: 20px;
+}
+.top_users > div > div > img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.nums {
+  color: #fff;
+  font-weight: 400;
+  line-height: 182.81px;
+  font-size: 158.95px;
+  transform: rotate(42.55deg);
+  position: absolute;
+  right: 43px;
+  font-family: "Ink";
+}

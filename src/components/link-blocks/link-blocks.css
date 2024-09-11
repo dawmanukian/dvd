@@ -1,0 +1,25 @@
+.link-blocks {
+  margin-top: 58px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 79px;
+  gap: 10px;
+}
+
+.link-blocks > a{
+  text-decoration: none;
+  background: #0a0a0a;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.link-blocks p {
+  color: #fff;
+  line-height: 14.32px;
+  font-weight: 500;
+  font-size: 12px;
+}
