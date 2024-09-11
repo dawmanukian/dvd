@@ -12,17 +12,58 @@
   align-items: center;
 }
 .questions p {
-    color: #fff;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 19px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
 }
 .ern_extra {
-    text-align: center;
-    font-weight: 700;
-    color: #fff;
-    line-height: 31px;
-    font-size: 26px;
-    margin-top: 60px;
-    margin-bottom: 40px;
+  text-align: center;
+  font-weight: 700;
+  color: #fff;
+  line-height: 31px;
+  font-size: 26px;
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+.daily {
+  color: #fff;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 600;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.dayss {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+.dayss div {
+  height: 60px;
+  width: 100%;
+  min-width: 90px;
+  border-radius: 7px;
+  background: #0a0a0a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.dayss div:nth-child(7) {
+    background: #EAA269;
+
+}
+.dayss div p {
+  font-weight: 500;
+  color: #fff;
+  line-height: 21px;
+  font-size: 18px;
+}
+.dayss div span {
+  color: #ffffff66;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
 }

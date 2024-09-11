@@ -28,6 +28,37 @@ const Quest = () => {
           </div>
         </div>
       </div>
+      <p className="daily">Daily reward</p>
+      <div className="dayss">
+        <div style={{ background: "#050505" }}>
+          <span>Day 1</span>
+          <p>50</p>
+        </div>
+        <div>
+          <span>Day 2</span>
+          <p>75</p>
+        </div>
+        <div>
+          <span>Day 3</span>
+          <p>100</p>
+        </div>
+        <div>
+          <span>Day 4</span>
+          <p>150</p>
+        </div>
+        <div>
+          <span>Day 5</span>
+          <p>200</p>
+        </div>
+        <div>
+          <span>Day 6</span>
+          <p>250</p>
+        </div>
+        <div>
+          <span>Day 7</span>
+          <p>500</p>
+        </div>
+      </div>
     </div>
   );
 };
