@@ -6,9 +6,9 @@ import Upgrade from "./page/upgrade/Upgrade";
 import Top from "./page/top/Top";
 import Dvd from "./page/dvd/Dvd";
 import DvdBox from "./page/dvd-box/DvdBox";
+import Quest from "./page/quest/Quest";
 
 function App() {
-  
   return (
     <div className="data">
       <Router>
@@ -19,6 +19,7 @@ function App() {
           <Route path="/top" element={<Top />} />
           <Route path="/scream" element={<Dvd />} />
           <Route path="/dvdbox" element={<DvdBox />} />
+          <Route path="/quest" element={<Quest />} />
         </Routes>
         <NavBar />
       </Router>

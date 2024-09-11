@@ -1,0 +1,28 @@
+.questions {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 5px;
+}
+.questions > div {
+  background: #ffffff0a;
+  border-radius: 10px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.questions p {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+}
+.ern_extra {
+    text-align: center;
+    font-weight: 700;
+    color: #fff;
+    line-height: 31px;
+    font-size: 26px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
